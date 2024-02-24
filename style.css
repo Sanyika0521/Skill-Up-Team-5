@@ -1,0 +1,18 @@
+
+.donate
+{
+    width: 33%;
+    background-image: url(/resources/food-donation.jpg);
+}
+
+.recycle
+{
+    width: 33%;
+    background-image: url(/resources/recycling-bins.jpeg);
+}
+
+.help
+{
+    width: 33%;
+    background-image: url(/resources/helping-hand.jpg);
+}

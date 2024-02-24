@@ -78,3 +78,9 @@ body
     font-size: 70px;
 }
 
+.linkDonate:hover, .linkRecycle:hover, .linkHelp:hover
+{
+    transition: 700ms;
+    font-size: 80px;
+}
+

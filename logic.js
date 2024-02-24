@@ -1,5 +1,4 @@
-function link1Hover()
+function link1hover()
 {
-    for(var i = 0; i>5; i++)
-    document.getElementById('linkDonate').style.fontSize += document.getElementById('linkDonate').style.fontSize + 5;
+    
 }

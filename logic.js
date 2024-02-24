@@ -1,4 +1,1 @@
-function link1hover()
-{
-    
-}
+function link

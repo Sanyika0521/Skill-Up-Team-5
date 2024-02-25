@@ -18,6 +18,37 @@ body
     border-width: 0px;
 }
 
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+
+.links 
+{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    left: 0px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.links a
+{
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 2vw;
+    display: block;
+}
+
+.dropdown:hover .links
+{
+    display: block;
+}
+
 .fa-fw
 {
     width: 3vw;
@@ -72,7 +103,7 @@ body
 .recycle
 {
     width: 33vw;
-    background-image: url('resources/recycling-bins.jpeg');
+    background-image: url('resources/recycling-bins.jpg');
     background-size: cover;
     border-collapse: collapse;
     background-position: -15vw 0px;

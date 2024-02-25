@@ -26,10 +26,10 @@ body
 
 .navigation
 {
-    width: 100%;
+    width: 100vw;
     text-align: center;
     background-color: rgba(240,240,240,255);
-    height: 120px;
+    height: 9vh;
 }
 
 .icons
@@ -37,9 +37,21 @@ body
     border-width: 0px;
 }
 
+.fa-fw
+{
+    width: 3vw;
+    height: 2vw;
+}
+
 .fa-thinner
 {
     -webkit-text-stroke: 3px white;
+}
+
+.home:hover, .home:visited, .home:link
+{
+    color: black;
+    text-decoration: none;
 }
 
 .SDRC

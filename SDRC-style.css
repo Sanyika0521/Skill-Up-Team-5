@@ -9,7 +9,7 @@ body
 {
     width: 100vw;
     text-align: center;
-    background-color: white;
+    background-color: rgba(240,240,240,255);
     height: 9vh;
 }
 
@@ -104,4 +104,3 @@ body
     transition: 700ms;
     font-size: 7vw;
 }
-

@@ -1,0 +1,92 @@
+body
+{
+    border:0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigation
+{
+    width: 100vw;
+    text-align: center;
+    background-color: rgba(240,240,240,255);
+    height: 9vh;
+}
+
+.icons
+{
+    border-width: 0px;
+}
+
+.fa-fw
+{
+    width: 3vw;
+    height: 2vw;
+}
+
+.fa-thinner
+{
+    -webkit-text-stroke: 3px white;
+}
+
+.home:hover, .home:visited, .home:link
+{
+    color: black;
+    text-decoration: none;
+}
+
+.SDRC
+{
+    font-size: 3vw;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.green-line
+{
+    background-color: rgb(0, 150, 0);
+    width: 100vw;
+    height: 11vh;
+}
+
+.recycle-back
+{
+    width: 100vw;
+    height: 89vh;
+    background-image: url('resources/recycle-background.jpg');
+    background-size: cover;
+    opacity: 0.5;
+    background-position: center -320px;
+    border-collapse: collapse;
+    position: absolute;
+    overflow: hidden;
+}
+
+.back
+{
+    position: relative;
+    height: 89vh;
+    overflow: hidden;
+}
+
+.contents
+{
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.recycle-symbol
+{
+    width: 15vw;
+    height: auto;
+    padding: 6vw;
+    vertical-align: middle;
+}
+
+p
+{
+    font-family: Gill Sans, sans-serif;
+    font-weight: 700;
+    font-size: 1.4vw;
+}

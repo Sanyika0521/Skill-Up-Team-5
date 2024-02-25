@@ -92,7 +92,7 @@ body
 {
     width: 33vw;
     background-image: url('resources/food-donation.jpg');
-    background-size: cover;
+    background-size:cover;
     border-collapse: collapse;
     background-position: -2vw 0px;
     color: white;
@@ -134,4 +134,5 @@ body
 {
     transition: 700ms;
     font-size: 7vw;
+    
 }

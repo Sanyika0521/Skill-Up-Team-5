@@ -49,27 +49,167 @@ body
     display: block;
 }
 
-.fa-fw
-{
-    width: 3vw;
-    height: 2vw;
-}
-
 .fa-thinner
 {
     -webkit-text-stroke: 3px white;
+}
+
+.YT
+{
+    display: none;
+}
+
+p
+{
+    font-family: Gill Sans, sans-serif;
+    font-weight: 700;
+    font-size: 1.7vw;
+}
+
+.FB
+{
+    display: none;
+}
+
+.else
+{
+    display: none;
+}
+
+.INST
+{
+    display: none;
+}
+
+.SDRC
+{
+    font-size: 4.5vw;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+@media screen and (min-width: 1365px) {
+    .YT
+    {
+        display: inline;
+    }   
+
+    .INST
+    {
+        display: inline;
+    }
+
+    .FB
+    {
+        display: inline;
+    }
+
+    .else
+    {
+        display: inline;
+    } 
+
+    .SDRC
+    {
+        font-size: 3vw;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+}
+
+@media screen and (min-width: 1140px) and (max-width: 1364px){
+    .INST
+    {
+        display: inline;
+    }
+
+    .FB
+    {
+        display: inline;
+    }
+
+    .else
+    {
+        display: inline;
+    }  
+    
+    .SDRC
+    {
+        font-size: 3vw;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+
+    p
+    {
+        font-size: 1.9vw;
+    }
+}
+
+@media screen and (min-width: 920px) and (max-width: 1139px) {
+    .FB
+    {
+        display: inline;
+    }
+
+    .else
+    {
+        display: inline;
+    }  
+    
+    .SDRC
+    {
+        font-size: 3vw;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+
+    p
+    {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-height: 800px) {
+
+    .SDRC
+    {
+        font-size: 5vh;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+
+    .else
+    {
+        display: none;
+    }
+
+    .FB
+    {
+        display: none;
+    }
+
+    .INST
+    {
+        display: none;
+    }
+
+    .YT
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 880px) {
+
+    .SDRC
+    {
+        font-size: 6vh;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+
+
 }
 
 .home:hover, .home:visited, .home:link
 {
     color: black;
     text-decoration: none;
-}
-
-.SDRC
-{
-    font-size: 3vw;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .green-line
@@ -83,13 +223,85 @@ body
 {
     width: 100vw;
     height: 89vh;
-    background-image: url('resources/recycle-background.jpg');
-    background-size: cover;
-    opacity: 0.5;
-    background-position: center -320px;
+    background-color: rgba(50, 175, 50,0.5);
     border-collapse: collapse;
     position: absolute;
     overflow: hidden;
+}
+
+.recycle-symbol
+{
+    width: 15vw;
+    height: auto;
+    padding: 6vw;
+    vertical-align: middle;
+    display: none;
+}
+
+@media screen and (min-width: 1821px){
+    .recycle-back
+    {
+        background-image: url('resources/recycle-background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.5;
+        background-position: center -320px;
+    }
+    
+    .recycle-symbol
+    {
+        display: inline;
+    }
+
+    p
+    {
+        font-weight: 700;
+        font-size: 1.4vw;
+    }
+}
+
+@media screen and (min-width: 1581px) and (max-width: 1820px){
+    .recycle-back
+    {
+        background-image: url('resources/recycle-background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.5;
+        background-position: center -260px;
+    }
+
+    .recycle-symbol
+    {
+        display: inline;
+    }
+
+    p
+    {
+        font-weight: 700;
+        font-size: 1.4vw;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1580px){
+    .recycle-back
+    {
+        background-image: url('resources/recycle-background.jpg');
+        background-size: cover;
+        opacity: 0.5;
+        background-repeat: no-repeat;
+        background-position: center -170px;
+    }
+
+    .recycle-symbol
+    {
+        display: inline;
+    }
+
+    p
+    {
+        font-weight: 700;
+        font-size: 1.5vw;
+    }
 }
 
 .back
@@ -105,19 +317,4 @@ body
     height: auto;
     text-align: center;
     overflow: hidden;
-}
-
-.recycle-symbol
-{
-    width: 15vw;
-    height: auto;
-    padding: 6vw;
-    vertical-align: middle;
-}
-
-p
-{
-    font-family: Gill Sans, sans-serif;
-    font-weight: 700;
-    font-size: 1.4vw;
 }

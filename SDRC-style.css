@@ -50,43 +50,67 @@ body
     display: block;
 }
 
-.fa-fw
-{
-    width: 3vw;
-    height: 2vw;
-}
-
 .fa-thinner
 {
-    -webkit-text-stroke: 3px white;
+    -webkit-text-stroke: 3px rgba(240,240,240,255);
 }
 
-.home:hover, .home:visited, .home:link
+.YT
 {
-    color: black;
-    text-decoration: none;
+    display: none;
+}
+
+@media screen and (min-width: 1365px) {
+    .YT
+    {
+        display: inline;
+    }   
+}
+
+.INST
+{
+    display: none;
+}
+
+@media screen and (min-width: 1140px) {
+    .INST
+    {
+        display: inline;
+    }   
+}
+
+.FB
+{
+    display: none;
+}
+
+.else
+{
+    display: none;
 }
 
 .SDRC
 {
-    font-size: 3vw;
+    font-size: 4.5vw;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-.green-line
-{
-    background-color: rgb(0, 150, 0);
-    width: 100vw;
-    height: 11vh;
-}
+@media screen and (min-width: 920px) {
+    .FB
+    {
+        display: inline;
+    }
 
-.selection
-{
-    width: 100vw;
-    height: 89vh;
-    text-align: center;
-    vertical-align: middle;
-    border-collapse: collapse;
+    .else
+    {
+        display: inline;
+    }  
+    
+    .SDRC
+    {
+        font-size: 3vw;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
 }
 
 .donate
@@ -125,6 +149,83 @@ body
     font-family: Gill Sans, sans-serif;
 }
 
+@media screen and (max-height: 800px) {
+
+    .SDRC
+    {
+        font-size: 5vh;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+
+    .else
+    {
+        display: none;
+    }
+
+    .FB
+    {
+        display: none;
+    }
+
+    .INST
+    {
+        display: none;
+    }
+
+    .YT
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 880px) {
+
+    .SDRC
+    {
+        font-size: 6vh;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+
+    .donate
+    {
+        font-size: 10vh;
+    }
+
+    .recycle
+    {
+        font-size: 10vh;
+    }
+
+    .help
+    {
+        font-size: 10vh;
+    }
+}
+
+.home:hover, .home:visited, .home:link
+{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.green-line
+{
+    background-color: rgb(0, 150, 0);
+    width: 100vw;
+    height: 11vh;
+}
+
+.selection
+{
+    width: 100vw;
+    height: 89vh;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+}
+
 .linkDonate:link, .linkRecycle:link, .linkHelp:link, .linkDonate:visited, .linkRecycle:visited, .linkHelp:visited
 {
     color: white;
@@ -135,5 +236,4 @@ body
 {
     transition: 700ms;
     font-size: 7vw;
-    
 }

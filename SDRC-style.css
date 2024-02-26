@@ -28,7 +28,7 @@ body
 {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #dfdfdf;
     left: 0px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -38,10 +38,11 @@ body
 .links a
 {
     color: black;
-    padding: 15px 20px;
+    padding: 20px 20px;
     text-decoration: none;
     font-size: 2vw;
     display: block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .dropdown:hover .links

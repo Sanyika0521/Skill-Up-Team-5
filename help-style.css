@@ -150,6 +150,7 @@ p
     font-family: Gill Sans, sans-serif;
     font-weight: 700;
     font-size: 2.6vmin;
+    line-height: 35px;
 }
 
 .home:hover, .home:visited, .home:link
@@ -169,7 +170,7 @@ p
 {
     width: 100vw;
     height: 89vh;
-    background-color: rgba(50, 175, 50,0.5);
+    background-color: rgba(252,235,217,255);
     border-collapse: collapse;
     position: absolute;
     overflow: hidden;
@@ -187,11 +188,11 @@ p
 @media screen and (min-width: 1821px){
     .recycle-back
     {
-        background-image: url('resources/recycle-background.jpg');
+        background-image: url('resources/helpsite-background.jpeg');
         background-size: cover;
         background-repeat: no-repeat;
         opacity: 0.5;
-        background-position: center center;
+        background-position: center -80px;
     }
     
     .recycle-symbol
@@ -209,11 +210,11 @@ p
 @media screen and (min-width: 1581px) and (max-width: 1820px){
     .recycle-back
     {
-        background-image: url('resources/recycle-background.jpg');
+        background-image: url('resources/helpsite-background.jpeg');
         background-size: cover;
         background-repeat: no-repeat;
         opacity: 0.5;
-        background-position: center center;
+        background-position: center -60px;
     }
 
     .recycle-symbol
@@ -225,11 +226,11 @@ p
 @media screen and (min-width: 1400px) and (max-width: 1580px){
     .recycle-back
     {
-        background-image: url('resources/recycle-background.jpg');
+        background-image: url('resources/helpsite-background.jpeg');
         background-size: cover;
         opacity: 0.5;
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: center -40px;
     }
 
     .recycle-symbol

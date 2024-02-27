@@ -28,7 +28,7 @@ body
 {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #dfdfdf;
     left: 0px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -42,6 +42,7 @@ body
     text-decoration: none;
     font-size: 2vw;
     display: block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .dropdown:hover .links
@@ -51,7 +52,7 @@ body
 
 .fa-thinner
 {
-    -webkit-text-stroke: 3px white;
+    -webkit-text-stroke: 3px rgba(240,240,240,255);
 }
 
 .YT
@@ -59,11 +60,23 @@ body
     display: none;
 }
 
-p
+@media screen and (min-width: 1550px) {
+    .YT
+    {
+        display: inline;
+    }   
+}
+
+.INST
 {
-    font-family: Gill Sans, sans-serif;
-    font-weight: 700;
-    font-size: 1.7vw;
+    display: none;
+}
+
+@media screen and (min-width: 1465px) {
+    .INST
+    {
+        display: inline;
+    }   
 }
 
 .FB
@@ -76,51 +89,13 @@ p
     display: none;
 }
 
-.INST
-{
-    display: none;
-}
-
 .SDRC
 {
-    font-size: 4.5vw;
+    font-size: 4.5vmin;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-@media screen and (min-width: 1365px) {
-    .YT
-    {
-        display: inline;
-    }   
-
-    .INST
-    {
-        display: inline;
-    }
-
-    .FB
-    {
-        display: inline;
-    }
-
-    .else
-    {
-        display: inline;
-    } 
-
-    .SDRC
-    {
-        font-size: 3vw;
-        font-family: "Comic Sans MS", "Comic Sans", cursive;
-    }
-}
-
-@media screen and (min-width: 1140px) and (max-width: 1364px){
-    .INST
-    {
-        display: inline;
-    }
-
+@media screen and (min-width: 1380px) {
     .FB
     {
         display: inline;
@@ -130,50 +105,16 @@ p
     {
         display: inline;
     }  
-    
-    .SDRC
-    {
-        font-size: 3vw;
-        font-family: "Comic Sans MS", "Comic Sans", cursive;
-    }
-
-    p
-    {
-        font-size: 1.9vw;
-    }
 }
 
-@media screen and (min-width: 920px) and (max-width: 1139px) {
-    .FB
-    {
-        display: inline;
-    }
-
-    .else
-    {
-        display: inline;
-    }  
-    
+@media screen and (min-width: 1080px) {
     .SDRC
     {
-        font-size: 3vw;
-        font-family: "Comic Sans MS", "Comic Sans", cursive;
-    }
-
-    p
-    {
-        font-size: 2vw;
+        font-size: 5vmin;
     }
 }
 
 @media screen and (max-height: 800px) {
-
-    .SDRC
-    {
-        font-size: 5vh;
-        font-family: "Comic Sans MS", "Comic Sans", cursive;
-    }
-
     .else
     {
         display: none;
@@ -195,15 +136,11 @@ p
     }
 }
 
-@media screen and (max-height: 880px) {
-
-    .SDRC
-    {
-        font-size: 6vh;
-        font-family: "Comic Sans MS", "Comic Sans", cursive;
-    }
-
-
+p
+{
+    font-family: Gill Sans, sans-serif;
+    font-weight: 700;
+    font-size: 2.6vmin;
 }
 
 .home:hover, .home:visited, .home:link
@@ -231,7 +168,7 @@ p
 
 .recycle-symbol
 {
-    width: 15vw;
+    width: 20vmin;
     height: auto;
     padding: 6vw;
     vertical-align: middle;
@@ -255,9 +192,9 @@ p
 
     p
     {
-        font-weight: 700;
-        font-size: 1.4vw;
+        font-size: 2.7vmin;
     }
+
 }
 
 @media screen and (min-width: 1581px) and (max-width: 1820px){
@@ -273,12 +210,6 @@ p
     .recycle-symbol
     {
         display: inline;
-    }
-
-    p
-    {
-        font-weight: 700;
-        font-size: 1.4vw;
     }
 }
 
@@ -299,8 +230,14 @@ p
 
     p
     {
-        font-weight: 700;
-        font-size: 1.5vw;
+        font-size: 2.5vmin;
+    }
+}
+
+@media screen and (min-width: 910px) and (max-width:1399px){
+    p
+    {
+        font-size: 2.4vmin;
     }
 }
 

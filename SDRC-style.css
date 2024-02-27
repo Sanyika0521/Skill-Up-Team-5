@@ -60,7 +60,7 @@ body
     display: none;
 }
 
-@media screen and (min-width: 1365px) {
+@media screen and (min-width: 1550px) {
     .YT
     {
         display: inline;
@@ -72,7 +72,7 @@ body
     display: none;
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1465px) {
     .INST
     {
         display: inline;
@@ -91,11 +91,11 @@ body
 
 .SDRC
 {
-    font-size: 4.5vw;
+    font-size: 4.5vmin;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 1380px) {
     .FB
     {
         display: inline;
@@ -105,58 +105,16 @@ body
     {
         display: inline;
     }  
-    
+}
+
+@media screen and (min-width: 1080px) {
     .SDRC
     {
-        font-size: 3vw;
-        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        font-size: 5vmin;
     }
-}
-
-.donate
-{
-    width: 33vw;
-    background-image: url('resources/food-donation.jpg');
-    background-size:cover;
-    border-collapse: collapse;
-    background-position: -2vw 0px;
-    color: white;
-    font-size: 5vw;
-    font-family: Gill Sans, sans-serif;
-}
-
-.recycle
-{
-    width: 33vw;
-    background-image: url('resources/recycling-bins.jpg');
-    background-size: cover;
-    border-collapse: collapse;
-    background-position: -15vw 0px;
-    color: white;
-    font-size: 5vw;
-    font-family: Gill Sans, sans-serif;
-}
-
-.help
-{
-    width: 33vw;
-    background-image: url('resources/helping-hand.jpg');
-    background-size: cover;
-    border-collapse: collapse;
-    background-position: -13vw 0px;
-    color: white;
-    font-size: 5vw;
-    font-family: Gill Sans, sans-serif;
 }
 
 @media screen and (max-height: 800px) {
-
-    .SDRC
-    {
-        font-size: 5vh;
-        font-family: "Comic Sans MS", "Comic Sans", cursive;
-    }
-
     .else
     {
         display: none;
@@ -178,28 +136,40 @@ body
     }
 }
 
-@media screen and (max-height: 880px) {
+.donate
+{
+    width: 33vw;
+    background-image: url('resources/food-donation.jpg');
+    background-size:cover;
+    border-collapse: collapse;
+    background-position: -2vw 0px;
+    color: white;
+    font-size: 5vmin;
+    font-family: Gill Sans, sans-serif;
+}
 
-    .SDRC
-    {
-        font-size: 6vh;
-        font-family: "Comic Sans MS", "Comic Sans", cursive;
-    }
+.recycle
+{
+    width: 33vw;
+    background-image: url('resources/recycling-bins.jpg');
+    background-size: cover;
+    border-collapse: collapse;
+    background-position: -15vw 0px;
+    color: white;
+    font-size: 5vmin;
+    font-family: Gill Sans, sans-serif;
+}
 
-    .donate
-    {
-        font-size: 10vh;
-    }
-
-    .recycle
-    {
-        font-size: 10vh;
-    }
-
-    .help
-    {
-        font-size: 10vh;
-    }
+.help
+{
+    width: 33vw;
+    background-image: url('resources/helping-hand.jpg');
+    background-size: cover;
+    border-collapse: collapse;
+    background-position: -13vw 0px;
+    color: white;
+    font-size: 5vmin;
+    font-family: Gill Sans, sans-serif;
 }
 
 .home:hover, .home:visited, .home:link
@@ -235,5 +205,5 @@ body
 .linkDonate:hover, .linkRecycle:hover, .linkHelp:hover
 {
     transition: 700ms;
-    font-size: 7vw;
+    font-size: 6vw;
 }
